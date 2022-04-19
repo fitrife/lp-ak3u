@@ -148,7 +148,7 @@
 @media (max-width: 767px) {
   body {
     max-width: 767px;
-    min-width: 450px;
+    min-width: 412px;
   }
   .main-wrapper {
     max-width: 767px;
@@ -166,6 +166,9 @@
   .banner-section {
     max-height: 90vh;
     background-position: 60%;
+  }
+  button .header-hamburger-btn {
+    margin-right: 5px;
   }
   .banner-section .banner-text {
     margin-top: -100px;
@@ -271,12 +274,12 @@
   }
 }
 
-@media (max-width:450px) {
+@media (max-width:412px) {
   body {
-    max-width: 450px;
+    max-width: 412px;
   }
   .main-wrapper {
-    max-width: 450px;
+    max-width: 412px;
   }
   .section-title .title {
     font-size: 1.5rem;

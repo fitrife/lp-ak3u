@@ -234,6 +234,7 @@ hr {
   font-weight: 500;
   padding: 8px 20px;
   transition: all 0.3s ease;
+  border-radius: 10px;
 }
 .btn-theme:hover {
   color: var(--main-color);
@@ -251,6 +252,7 @@ hr {
   font-weight: 500;
   padding: 8px 20px;
   transition: all 0.3s ease;
+  border-radius: 10px;
 }
 .btn-theme-2:hover {
   color: var(--black-90);
@@ -415,7 +417,7 @@ textarea.form-control {
   right: 0%;
 }
 .header-logo img {
-  max-height: 35px;
+  max-height: 45px;
   background-color: transparent;
   z-index: 1;
 }
@@ -506,7 +508,7 @@ textarea.form-control {
 }
 .banner-text h1 {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 3.375rem;
+  font-size: 2.5rem;
   font-weight: 1000;
 }
 .banner-text h1 span {
@@ -615,6 +617,11 @@ textarea.form-control {
   border-radius: 25px;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+}
+.promo-2-section .card button {
+  text-align: center;
 }
 .promo-2-section .card:hover {
   background: var(--main-color);
@@ -622,7 +629,7 @@ textarea.form-control {
 }
 .promo-2-section .card:hover h2,
 .promo-2-section .card:hover strong,
-.promo-2-section .card:hover i {
+.promo-2-section .card:hover i{
   color: var(--white);
 }
 .promo-section .promo-section-row {
@@ -634,6 +641,7 @@ textarea.form-control {
 .promo-section .card {
   text-align: left;
   margin-bottom: 5px;
+  border-radius: 15px;
 }
 .promo-section .price-discount {
   font-size: 18px;
@@ -686,6 +694,10 @@ textarea.form-control {
   color: var(--black-90);
   font-size: 22px;
   font-weight: 600;
+}
+.promo-fee-price p {
+  text-decoration: line-through;
+  font-size: 18px;
 }
 .promo-fee-divider {
   width: 100%;
