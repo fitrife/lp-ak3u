@@ -271,12 +271,12 @@
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width:575px) {
   body {
-    max-width: 479px;
+    max-width: 575px;
   }
   .main-wrapper {
-    max-width: 479px;
+    max-width: 575px;
   }
   .section-title .title {
     font-size: 1.5rem;
