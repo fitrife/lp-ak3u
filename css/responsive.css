@@ -148,11 +148,11 @@
 @media (max-width: 767px) {
   body {
     max-width: 767px;
-    min-width: 390px;
+    min-width: 414px;
   }
   .main-wrapper {
     max-width: 767px;
-    min-width: 390px;
+    min-width: 414px;
   }
   .container {
     --bs-gutter-x: 15px;
@@ -271,12 +271,12 @@
   }
 }
 
-@media (max-width:390px) {
+@media (max-width:414px) {
   body {
-    max-width: 390px;
+    max-width: 414px;
   }
   .main-wrapper {
-    max-width: 390px;
+    max-width: 414px;
   }
   .section-title .title {
     font-size: 1.5rem;
@@ -287,7 +287,7 @@
   }
   .banner-section {
     max-height: 90vh;
-    background-position: 60%;
+    background-position: 40%;
   }
   .banner-section .banner-text {
     margin-top: -100px;
