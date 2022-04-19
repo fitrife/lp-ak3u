@@ -148,11 +148,11 @@
 @media (max-width: 767px) {
   body {
     max-width: 767px;
-    min-width: 479px;
+    min-width: 390px;
   }
   .main-wrapper {
     max-width: 767px;
-    min-width: 479px;
+    min-width: 390px;
   }
   .container {
     --bs-gutter-x: 15px;
@@ -271,12 +271,12 @@
   }
 }
 
-@media (max-width:575px) {
+@media (max-width:390px) {
   body {
-    max-width: 575px;
+    max-width: 390px;
   }
   .main-wrapper {
-    max-width: 575px;
+    max-width: 390px;
   }
   .section-title .title {
     font-size: 1.5rem;
